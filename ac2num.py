@@ -1,0 +1,4 @@
+ac_list=['Sleep', 'Bed_Toilet_Transition', 'Toilet', 'Morning_Meds', 'Dress', 'Groom', 'Relax', 'Leave_Home', 'Enter_Home', 'Cook_Breakfast', 'Eat_Breakfast', 'Wash_Breakfast_Dishes', 'Watch_TV', 'Cook_Lunch', 'Eat_Lunch', 'Take_Medicine', 'Bathe', 'Evening_Meds', 'Personal_Hygiene', 'Read', 'Work', 'Entertain_Guests', 'Sleep_Out_Of_Bed', 'Eat', 'Cook', 'Cook_Dinner', 'Eat_Dinner', 'Wash_Dinner_Dishes', 'Exercise', 'Wash_Lunch_Dishes', 'Wash_Dishes', 'Make_Bed', 'Paramedics', 'Caregiver', 'Groceries', 'Laundry', 'Piano', 'Housekeeping', 'Drug_Management', 'Door_Ajar', 'Loose_Connection', 'System_Technicians', 'Started']
+
+for ac in ac_list:
+    print str(ac_list.index(ac)+1)+' : '+ac
